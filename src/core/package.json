@@ -1,0 +1,14 @@
+{
+  "name": "crawl.core",
+  "version": "0.0.1",
+  "dependencies": {
+    "cheerio": "*",
+    "iconv-lite": "*",
+    "log4js": "*",
+    "mysql": "*",
+    "node-uuid": "*",
+    "request": "*",
+    "sequelize": "*",
+    "thenjs": "*"
+  }
+}
