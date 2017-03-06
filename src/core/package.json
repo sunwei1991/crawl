@@ -1,6 +1,7 @@
 {
   "name": "crawl.core",
   "version": "0.0.1",
+  "homepage": "https://github.com/sunwei1991/crawl",
   "dependencies": {
     "cheerio": "*",
     "iconv-lite": "*",
