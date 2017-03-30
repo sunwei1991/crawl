@@ -2,15 +2,15 @@
   "name": "crawl.core.service",
   "version": "0.0.1",
   "private": true,
-  "description":"爬虫框架的轮询服务",
+  "description": "爬虫框架的轮询服务",
   "scripts": {
     "start": "node ./app"
   },
   "dependencies": {
+    "cheerio": "*",
     "log4js": "~0.6.33",
-    "mongoose": "~3.8.16",
+    "mongoose": "~4.4",
     "thenjs": "~2.0.2",
-    "request": "~2.72.0",
-    "uuid": "*"
+    "request": "~2.72.0"
   }
 }

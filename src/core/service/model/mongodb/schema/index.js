@@ -7,8 +7,10 @@ const logger = crawl.logger;
 const mongoose = require('mongoose');
 
 mongoose.connect(config, function (err) {
-    logger.error('connect to %s error: ', config, err.message);
-    process.exit();
+    if(err){
+        logger.error('connect to %s error: ', config, err.message);
+        process.exit();
+    }
 });
 
 /**

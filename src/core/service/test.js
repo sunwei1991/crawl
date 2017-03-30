@@ -3,4 +3,5 @@
  */
 "use strict";
 require('./init');
-crawl.logger.info('test');
+crawl.logger.info('test start');
+const requestHandle=require('./logic/requestHandle');
