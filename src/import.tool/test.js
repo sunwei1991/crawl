@@ -2,15 +2,17 @@
  * @author sunwei on 2017/2/25.
  */
 "use strict";
-const fileHelper = require('./tools/fileHelper');
+const fileHelper = require('./tool/fileHelper');
 
-fileHelper.getFiles('G:/电影/720p/007系列', function (err, files) {
+fileHelper.getFiles('I:/电影', function (err, files) {
     if (err) {
         console.error(err);
         return;
     }
+    console.log(files.length);
+    console.log(files);
 
-    var start = new Date().getTime();
+    /*var start = new Date().getTime();
 
     function cal_loop(i) {
         if (i >= files.length) {
@@ -27,5 +29,5 @@ fileHelper.getFiles('G:/电影/720p/007系列', function (err, files) {
         });
     }
 
-    cal_loop(0);
+    cal_loop(0);*/
 });

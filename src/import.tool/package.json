@@ -1,0 +1,15 @@
+{
+  "name": "crawl.import.tool",
+  "version": "0.1.0",
+  "description": "导入工具",
+  "private": true,
+  "scripts": {
+    "start": "node ./start"
+  },
+  "dependencies": {
+    "log4js": "0.6.33",
+    "mysql2": "1.5.1",
+    "sequelize": "4.32.2",
+    "uuid": "3.2.1"
+  }
+}

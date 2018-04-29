@@ -29,7 +29,7 @@ module.exports.getFiles = function (dirStr, callback) {
                         return;
                     }
                     if (stat.isDirectory()) {
-                        getFiles(childPath, function (err_g, files_g) {
+                        module.exports.getFiles(childPath, function (err_g, files_g) {
                             if (err_g) {
                                 callback(err_g);
                                 return;
