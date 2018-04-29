@@ -5,23 +5,10 @@
     },
     {
       "type": "logLevelFilter",
-      "level": "TRACE",
-      "appender":{
-        "type": "dateFile",
-        "filename": "log/access/",
-        "pattern": "yyyy-MM-dd.log",
-        "maxLogSize": 1024,
-        "backups":4,
-        "alwaysIncludePattern": true
-      },
-      "category": "access"
-    },
-    {
-      "type": "logLevelFilter",
       "level": "DEBUG",
       "appender":{
         "type": "dateFile",
-        "filename": "log/app/",
+        "filename": "log/",
         "pattern": "yyyy-MM-dd.log",
         "maxLogSize": 1024,
         "backups":4,

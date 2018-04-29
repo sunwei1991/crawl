@@ -2,6 +2,7 @@
  * @author sunwei on 2017/2/25.
  */
 "use strict";
+require('./init');
 const fileHelper = require('./tool/fileHelper');
 
 fileHelper.getFiles('I:/电影', function (err, files) {
