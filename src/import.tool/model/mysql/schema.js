@@ -53,8 +53,8 @@ const sequelizeInstance = new Sequelize(sqlConfig.database, sqlConfig.user, sqlC
         dialect: 'mysql',
         pool: sqlConfig.pool,
         logging: function (msg) {
-            if (mopit.config.debug) {
-                mopit.logger.debug(msg);
+            if (CIT.config.debug) {
+                CIT.logger.debug(msg);
             }
         },
         dialectOptions: {
