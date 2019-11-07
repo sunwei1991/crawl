@@ -9,7 +9,7 @@
   "dependencies": {
     "log4js": "0.6.33",
     "mysql2": "1.5.1",
-    "sequelize": "4.32.2",
+    "sequelize": "*",
     "uuid": "3.2.1"
   }
 }
